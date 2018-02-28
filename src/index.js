@@ -1,7 +1,11 @@
-export routerStateReducer from './routerStateReducer';
-export ReduxRouter from './ReduxRouter';
-export reduxReactRouter from './client';
-export isActive from './isActive';
+import _routerStateReducer from './routerStateReducer';
+export { _routerStateReducer as routerStateReducer };
+import _ReduxRouter from './ReduxRouter';
+export { _ReduxRouter as ReduxRouter };
+import _reduxReactRouter from './client';
+export { _reduxReactRouter as reduxReactRouter };
+import _isActive from './isActive';
+export { _isActive as isActive };
 
 export {
   historyAPI,

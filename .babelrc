@@ -1,5 +1,6 @@
 {
   "presets": [
+    "./tools/es2015Preset",
     "env"
   ],
   "plugins": [
